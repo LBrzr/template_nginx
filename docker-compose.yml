@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  templates:
+    build: .
+    volumes:
+      - /root/sites/templates/out:/usr/share/nginx/html
